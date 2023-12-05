@@ -17,11 +17,11 @@ const achievementsList = [
   },
   {
     metric: "Frontend",
-    value: "9",
+    value: "10",
   },
   {
     metric: "Backend",
-    value: "2",
+    value: "3",
   },
   {
     metric: "Full Stack",
