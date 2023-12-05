@@ -61,6 +61,15 @@ const projectsData = [
   },
   {
     id: 7,
+    title: "YouTube Clone",
+    description: "This is YouTube Clone created using React.js which styles is based on GitHub Primer theme",
+    image: "/images/projects/youtube.png",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Rajdeep777/YouTube-Clone",
+    previewUrl: "https://youtubeflix.netlify.app/",
+  },
+  {
+    id: 8,
     title: "Habit Tracking App",
     description: "This is a React application which is tracking the daily habits",
     image: "/images/projects/habit.png",
@@ -69,7 +78,7 @@ const projectsData = [
     previewUrl: "https://habit-tracking-app-rajdeep.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Contact List Application",
     description: "This is a React application which is stores the list of contacts of users",
     image: "/images/projects/contact.png",
@@ -78,7 +87,7 @@ const projectsData = [
     previewUrl: "https://contact-list-rajdeep.netlify.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Personalized News Hub",
     description: "This is a React application that provides users with news articles tailored to their preferences",
     image: "/images/projects/news.png",
@@ -87,7 +96,7 @@ const projectsData = [
     previewUrl: "https://personalized-news-hub.netlify.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Task Management System",
     description: "This is a Task Management System which is managing the task according to the users",
     image: "/images/projects/taskmanagement.png",
@@ -96,7 +105,16 @@ const projectsData = [
     previewUrl: "https://task-management-system-8i67.onrender.com",
   },
   {
-    id: 11,
+    id: 12,
+    title: "Inventory Management System",
+    description: "This is a backend project built with Node.js and Express.js, incorporating authentication, cookie parsing, session management, Express.js layout, and Multer for handling file uploads.",
+    image: "/images/projects/inventory.png",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/Rajdeep777/Inventory-Management-System",
+    previewUrl: "https://inventory-management-system-ll4o.onrender.com/login",
+  },
+  {
+    id: 13,
     title: "Employee Review System",
     description: "This is an Employee Review System which allow employee to review co-employees and this is used to validate the user’s identity and grant permission to access.",
     image: "/images/projects/employee.png",
@@ -105,7 +123,7 @@ const projectsData = [
     previewUrl: "https://employeereviewsystem-l4pg.onrender.com",
   },
   {
-    id: 12,
+    id: 14,
     title: "Issue Tracker",
     description: "This is a React application which is tracking the issues which is created by users",
     image: "/images/projects/issue.png",
@@ -114,7 +132,7 @@ const projectsData = [
     previewUrl: "https://issuetracker-4u1i.onrender.com",
   },
   {
-    id: 13,
+    id: 15,
     title: "Calculator App",
     description: "This is a React application which is used to compute the arithemetic operation",
     image: "/images/projects/calculator.png",
@@ -123,7 +141,7 @@ const projectsData = [
     previewUrl: "https://calculator-rajdeep.netlify.app/",
   },
   {
-    id: 14,
+    id: 16,
     title: "Stopwatch App",
     description: "This app provides a convenient and straightforward way for users to measure time intervals with precision. It features a clean and intuitive user interface with essential stopwatch functionalities, making it easy to start, stop, and reset the timer.",
     image: "/images/projects/stopwatch.png",
@@ -132,14 +150,14 @@ const projectsData = [
     previewUrl: "https://rajdeep777.github.io/Stopwatch/",
   },
   {
-    id: 15,
+    id: 17,
     title: "IMDB Clone",
     description: "This project gives a basic understand on how API's work how we can use fetch(). I loved building this project because unlike using node or mongo the interaction between the elements was to be done with Javascript so this project helped me understand the DOM node structure very well regarding what elements are visible to other writing neat code because the project simply forces you to do so otherwise it all get's messy and difficult to debug",
     image: "/images/projects/imdb.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Rajdeep777/IMDB-Clone",
     previewUrl: "https://rajdeep777.github.io/Stopwatch/",
-  },
+  }
 ];
 
 const ProjectsSection = () => {
