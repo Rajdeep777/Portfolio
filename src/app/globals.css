@@ -25,3 +25,39 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media only screen and (min-width: 425px) {
+  .w-\[350px\]{
+    width: 346px;
+  }
+  .h-\[250px\]{
+    height: 349px;
+  }
+  img{
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .w-\[350px\]{
+    width: 260px;
+  }
+  .h-\[250px\]{
+    height: 253px;
+  }
+  .img-sec{
+    width: 102%;
+  }
+  img{
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .w-\[350px\]{
+    width: 367px;
+  }
+  .h-\[250px\]{
+    height: 358px;
+  }
+}
